@@ -1,0 +1,36 @@
+name: Gxosent
+description: Eine App zum Spaß haben by Cxnsent
+version: "0.0.1"
+publish_to: 'https://github.com/Cxnsent' 
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.0
+  flutter_map: ^5.0.0
+  latlong2: ^0.9.1
+  location: ^4.4.0
+  geocoding: ^2.0.5
+  url_launcher: ^6.1.10
+  flutter_launcher_icons: "^0.13.1"
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.jpeg"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/icon.jpeg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    -   assets/icon.jpeg
